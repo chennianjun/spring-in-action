@@ -11,7 +11,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="chapter-01" target="1.8" />
-      <module name="spring-in-action" target="1.5" />
+      <module name="spring-in-action" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
