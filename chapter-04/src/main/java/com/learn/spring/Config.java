@@ -8,9 +8,9 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 /**
  * Created by Subtimental on 2017/4/20.
  */
-@Configuration
-@ComponentScan
-@EnableAspectJAutoProxy
+//@Configuration
+//@ComponentScan
+//@EnableAspectJAutoProxy
 public class Config {
 
     @Bean

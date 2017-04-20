@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 /**
  * Created by Subtimental on 2017/4/20.
  */
-@Component
+//@Component
 public class CompactDiscImpl implements CompactDisc {
     @Override
     public void play() {
