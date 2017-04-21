@@ -2,10 +2,13 @@ package com.learn.spring.config;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
+import javax.servlet.MultipartConfigElement;
+import javax.servlet.ServletRegistration;
+
 /**
- * Created by Subtimental on 2017/4/20.
+ * Created by Subtimental on 2017/4/21.
  */
-public class DispatcherServletConfig extends AbstractAnnotationConfigDispatcherServletInitializer {
+public class DispatcherServletConfig extends AbstractAnnotationConfigDispatcherServletInitializer{
     @Override
     protected Class<?>[] getRootConfigClasses() {
         return new Class[]{RootConfig.class};
@@ -21,4 +24,8 @@ public class DispatcherServletConfig extends AbstractAnnotationConfigDispatcherS
         return new String[]{"/"};
     }
 
+    @Override
+    protected void customizeRegistration(ServletRegistration.Dynamic registration) {
+        registration.setMultipartConfig(new MultipartConfigElement("D:/tmp/"));
+    }
 }
