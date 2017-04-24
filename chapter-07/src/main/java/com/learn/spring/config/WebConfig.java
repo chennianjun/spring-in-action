@@ -56,10 +56,10 @@ public class WebConfig extends WebMvcConfigurerAdapter {
         return templateResolver;
     }
 
-    @Bean
-    public StandardServletMultipartResolver standardServletMultipartResolver(){
-        return new StandardServletMultipartResolver();
-    }
+//    @Bean
+//    public StandardServletMultipartResolver standardServletMultipartResolver(){
+//        return new StandardServletMultipartResolver();
+//    }
 
 //    @Bean
 //    public MultipartResolver multipartResolver() throws IOException {

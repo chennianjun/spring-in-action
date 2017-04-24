@@ -12,5 +12,12 @@
         <input type="file" name="file"/>
         <input type="submit" value="upload"/>
     </form>
+
+    <h2>上传图片通过Part接收表单数据</h2>
+    <form method="post" enctype="multipart/form-data" th:action="@{/mvc/uploadByPart}">
+        <label>上传文件:</label>
+        <input type="file" name="file"/>
+        <input type="submit" value="upload"/>
+    </form>
 </body>
 </html>
