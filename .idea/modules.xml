@@ -9,7 +9,9 @@
       <module fileurl="file://$PROJECT_DIR$/chapter-05/chapter-05.iml" filepath="$PROJECT_DIR$/chapter-05/chapter-05.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter-06/chapter-06.iml" filepath="$PROJECT_DIR$/chapter-06/chapter-06.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter-07/chapter-07.iml" filepath="$PROJECT_DIR$/chapter-07/chapter-07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter-08/chapter-08.iml" filepath="$PROJECT_DIR$/chapter-08/chapter-08.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-in-action.iml" filepath="$PROJECT_DIR$/spring-in-action.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-flow-example/web-flow-example.iml" filepath="$PROJECT_DIR$/web-flow-example/web-flow-example.iml" />
     </modules>
   </component>
 </project>
